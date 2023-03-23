@@ -1,0 +1,38 @@
+.nav-item:hover{
+  transform: scale(1.2);
+  transition: .5s;
+  -webkit-transition: .5s;
+  -moz-transition: .5s;
+  -ms-transition: .5s;
+  -o-transition: .5s;
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+.titulo_sobremi{
+    margin-bottom: 50px;
+    text-align: center;
+
+  }
+.nav li a p img{
+    margin-top: 10px;
+    margin-right: 100px;
+
+  }
+
+@media (max-width: 600px) {
+  .titulo_sobremi{
+    padding-bottom: 20px;
+  }
+  .nav{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .nav li a p img{
+    display: inline !important;
+    margin-left: 30px;
+
+  }
+}
